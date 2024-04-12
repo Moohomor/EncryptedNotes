@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3">
+   <item row="0" column="1">
+    <widget class="QFrame" name="noteFrame">
+     <property name="styleSheet">
+      <string notr="true">QFrame {
+	background-color: rgb(48, 50, 72);
+	border-radius: 10px
+}</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_4">
+      <item row="1" column="0">
+       <layout class="QVBoxLayout" name="verticalLayout_6">
+        <item>
+         <widget class="QPlainTextEdit" name="plainTextEdit_3">
+          <property name="styleSheet">
+           <string notr="true">QPlainTextEdit {
+	background-color: rgb(255, 255, 255);
+	border-radius: 5px;
+	font: 11pt &quot;MS Shell Dlg 2&quot;;
+}</string>
+          </property>
+          <property name="placeholderText">
+           <string notr="true">Введите текст...</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLineEdit" name="lineEdit_3">
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLineEdit {
+	border-radius: 4px
+}</string>
+        </property>
+        <property name="placeholderText">
+         <string notr="true">Заголовок</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <layout class="QVBoxLayout" name="verticalLayout_7">
+        <item>
+         <widget class="QCommandLinkButton" name="readBtn">
+          <property name="font">
+           <font>
+            <family>Segoe UI</family>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(54, 66, 182);
+	color: rgb(54, 66, 182);
+	border-radius: 6px
+}
+QPushButton:hover {
+	background-color: rgb(190, 190, 255);
+}
+QPushButton:pressed {
+	background-color: rgb(150, 150, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>Прочесть</string>
+          </property>
+          <property name="icon">
+           <iconset theme=".">
+            <normaloff>.</normaloff>.</iconset>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCommandLinkButton" name="del_Btn">
+          <property name="font">
+           <font>
+            <family>Segoe UI</family>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	color: rgb(255, 255, 255);
+	background-color: rgb(255, 69, 72);
+	border-radius: 6px
+}
+QPushButton:hover {
+	background-color: rgb(200, 54, 57);
+}
+QPushButton:pressed {
+	background-color: rgb(150, 41, 44);
+}</string>
+          </property>
+          <property name="text">
+           <string>Удалить</string>
+          </property>
+          <property name="icon">
+           <iconset theme=".">
+            <normaloff>.</normaloff>.</iconset>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
